@@ -1,7 +1,7 @@
 
-# grunt-develop - [![Build Status](https://secure.travis-ci.org/edwardhotchkiss/grunt-develop.png)](http://travis-ci.org/edwardhotchkiss/grunt-develop)
+# grunt-multi-develop
 
-> Grunt Task to run a Node.js Server while developing, auto-reloading on change.
+> Grunt Task to run one or more Node.js Server while developing, auto-reloading on change.
 
 ## Notes:
 
@@ -11,7 +11,7 @@
 ## Install
 
 ```bash
-$ npm install grunt-develop
+$ npm install grunt-multi-develop
 ```
 
 ## Setup Gruntfile.js:
@@ -24,6 +24,9 @@ module.exports = function(grunt) {
     develop: {
       server: {
         file: 'app.js'
+      },
+      server2: {
+        file: 'app2.js'
       }
     }
   });
@@ -45,8 +48,8 @@ $ grunt
 
 ## License (MIT)
 
-Copyright (c) 2013, Edward Hotchkiss.
+Copyright (c) 2018, Antonio Giordano.
 
-## Author: [Edward Hotchkiss][0]
+## Author: [Antonio giordano][0]
 
-[0]: http://github.com/edwardhotchkiss/
+[0]: http://github.com/ubiatar/
