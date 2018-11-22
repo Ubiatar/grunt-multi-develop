@@ -1,15 +1,15 @@
 {
-  "name": "grunt-develop",
-  "description": "Grunt Task to run a Node.js Server while developing, auto-reloading on change.",
+  "name": "grunt-multi-develop",
+  "description": "Grunt Task to run one or multiple Node.js Server while developing, auto-reloading on change.",
   "version": "0.0.1",
-  "homepage": "https://github.com/edwardhotchkiss/grunt-develop",
-  "author": { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" },
+  "homepage": "https://github.com/ubiatar/grunt-multi-develop",
+  "author": { "name": "Antonio Giordano", "email": "antonio.giordano@ubiatar.com" },
   "contributors": [
-    { "name": "Edward Hotchkiss","email": "edwardhotchkiss@me.com" }
+    { "name": "Antonio Giordano","email": "antonio.giordano@ubiatar.com" }
   ],
   "repository":{
     "type":"git",
-    "url":"git://github.com/edwardhotchkiss/node-develop.git"
+    "url":"git://github.com/ubiatar/grunt-multi-develop.git"
   },
   "engines": {
     "node": ">= 0.8.0"
@@ -25,6 +25,6 @@
     "grunt": ">=0.4.0"
   },
   "keywords": [
-    "grunt","node","server","development","gruntplugin","express"
+    "grunt","node","server","development","gruntplugin","express","hapi"
   ]
 }
